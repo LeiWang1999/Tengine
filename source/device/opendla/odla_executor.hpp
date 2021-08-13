@@ -97,7 +97,6 @@ private:
     nvdla::priv::canonical_ast::Node* AddScaleNode(struct node* ir_node);
     nvdla::priv::canonical_ast::Node* AddSplitNode(struct node* ir_node);
 
-
     NvDlaError ODLAConfigGenerate();
 
 public:
